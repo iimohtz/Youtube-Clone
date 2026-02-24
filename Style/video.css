@@ -1,0 +1,67 @@
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,260px);
+    grid-auto-rows: 230px;
+    padding:10px 0px 10px 0px;
+    gap: 10px;
+    border-top: 1px rgb(209, 209, 209) solid;
+    background-color: rgb(235, 235, 235);
+    justify-content: center;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 2px 10px rgba(0, 0,0, 0.2);
+    border-radius: 2px;
+    transition: scale 0.4s;
+}
+.video:hover{
+    scale: 1.05;
+}
+.thumbnail{
+    flex: 3;
+    padding: 4px;
+}
+.thumbnail img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.info-row{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+}
+.channel-pic{
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.channel-pic img{
+    height: 25px;
+    border-radius: 50%;
+}
+.video-info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+}
+.video-title{
+    flex:1;
+    margin-top: 2px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.video-stat{
+    flex: 0.5;
+    margin-bottom: 8px;
+}

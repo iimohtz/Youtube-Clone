@@ -1,0 +1,31 @@
+body{
+    margin: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.youtube{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas: 
+    "head head"
+    "side main";
+    overflow: hidden;
+    padding-right: 5px;
+}
+.header{
+    grid-area: head;
+   position: sticky;
+   z-index: 100;
+}
+.sidebar{
+    grid-area: side;
+    overflow-y: auto;
+    margin-right: 5px;
+}
+.main{
+    grid-area: main;
+    overflow-y: auto;
+}
+

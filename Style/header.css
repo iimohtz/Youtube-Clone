@@ -1,0 +1,42 @@
+.header-grid{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+    align-items: center;
+}
+.hamburger-grid{
+    height: 40px;
+    width: 120px;
+    display: flex;
+    gap: 10px;
+    margin-left: 18px;
+}
+
+.search-grid{
+    height: 40px;
+    width: 200px;
+    min-width: 100px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-grid input{
+    height: 30px;
+    width: 20px;
+    max-width: 250px;
+    flex:1;
+    border-radius: 2px;
+    border: 1px rgb(184, 183, 183) solid;
+    padding-left:5px ;
+    outline: none;
+}
+.channel-grid{
+    height: 40px;
+    width: 155px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
